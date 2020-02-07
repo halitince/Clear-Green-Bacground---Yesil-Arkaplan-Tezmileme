@@ -4,4 +4,4 @@ Fotoğraftaki yeşil arkaplanı değiştirmek için geliştirilmiş bir js algor
 
 Delphi(Pascal) ile algoritma yeteneğinin geliştirilmesi için yapılmış oyun uygulaması ;)
 
-<img src="https://github.com/halitince/YilanOyunu-Delphi-/blob/master/img/yilan.png"  />
+<img src="https://github.com/halitince/Clear-Green-Bacground---Yesil-Arkaplan-Tezmileme/blob/master/Capture.PNG"  />
