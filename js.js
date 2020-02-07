@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<body>
-
-  <style>
-    .cc {
-      position: fixed;
-      top: 8px;
-      left: 8px;
-    }
-  </style>
-
-  <br><br><br><br><br><br><br><br><br><br><br>
-  <img id="scream" width="300" src="file://C:\Users\halit\Downloads\test\1.png" alt="The Scream">
-  <img id="scream2" width="300" src="file://C:\Users\halit\Downloads\test\2.png" alt="The Scream">
-
-  <canvas id="myCanvas1" class="cc" width="300" height="180">
-    Your browser does not support the HTML5 canvas tag.
-  </canvas>
-  <canvas id="myCanvas2" class="cc" width="300" height="180">
-    Your browser does not support the HTML5 canvas tag.
-  </canvas>
-
-  <canvas id="myCanvas3" width="300" height="180">
-    Your browser does not support the HTML5 canvas tag.
-  </canvas>
-
-  <script>
     var matrix = [];
     var xLenght = 180;
     var yLenght = 300;
@@ -48,7 +20,8 @@
       return (x * yLenght + y) * 4;
     }
 
-    window.onload = function () {
+    
+    function islemler() {
       var c1 = document.getElementById("myCanvas1").getContext("2d");
       c1.drawImage(document.getElementById("scream"), 0, 0);
 
@@ -115,9 +88,3 @@
 
       c2.putImageData(imgd, 0, 0);
     }
-  </script>
-
-
-</body>
-
-</html>
